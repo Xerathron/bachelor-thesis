@@ -1,0 +1,12 @@
+[submodule "repositories/conduit-mf"]
+	path = repositories/conduit-mf
+	url = git@github.com:Xerathron/conduit-mf.git
+[submodule "repositories/single-spa-example"]
+	path = repositories/single-spa-example
+	url = https://github.com/Xerathron/single-spa-example
+[submodule "repositories/web-components-example"]
+	path = repositories/web-components-example
+	url = https://github.com/Xerathron/web-components-example
+[submodule "repositories/singleton-service-bug"]
+	path = repositories/singleton-service-bug
+	url = https://github.com/Xerathron/ModuleFederationExample_Angular_MF_Service_Problem

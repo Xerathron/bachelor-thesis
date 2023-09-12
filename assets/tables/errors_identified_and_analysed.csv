@@ -1,0 +1,55 @@
+Kategorie,Fehler,Szenario,Eintrittswahrscheinlichkeit,Auswirkung,Lösungsversuch,Lösbar
+Webpack,Container bereits initialisiert,Bug (loaded container map nicht integer),gering,mittel / hoch,Webseite neu laden,gering 
+Webpack,Fehler bei Chunk nachladen,alle Netzwerkfehler,hoch,mittel,erneut versuchen,mittel
+Axios - keine Antwort,ERR_NETWORK,lokaler Neztwerkdienst nicht verfügbar,hoch,hoch,erneut versuchen,mittel
+Axios - keine Antwort,ETIMEDOUT,"Server überlastet /
+Fataler Serverfehler",mittel,hoch,erneut versuchen,mittel
+Axios - keine Antwort,ERR_FR_TOO_MANY_REDIRECTS,Routingfehler Serverseitig,mittel,mittel,erneut versuchen,mittel
+Axios - keine Antwort,ERR_BAD_OPTION_VALUE,Maniuplierter request header (bspw. JWT manipuliert),gering,hoch,ab- und wieder anmelden,hoch
+Axios - keine Antwort,ECONNABORTED,Abbruch-Ereignis geworfen -> Axiosseitig (eigener timeout),mittel,mittel,erneut versuchen,mittel
+Axios - HTTP Code,Unauthorized (401),JWT token ungültig (nur durch Bug oder Manipulation hervorrufbar),gering,hoch,ab- und wieder anmelden,hoch
+Axios - HTTP Code,Conflict (409),Client nicht bereit für Anfrage,mittel,mittel,erneut versuchen,hoch
+Axios - HTTP Code,TooEarly (425),In einem TCP 1.3. durchgeführten Handshake ,mittel,mittel,erneut versuchen,hoch
+Axios - HTTP Code,InternalServerError (500),Innerer Server Fehler,mittel,mittel,erneut versuchen,mittel
+Axios - HTTP Code,BadGateway (502),Ungültige Antwort des Zielservers,mittel,mittel,erneut versuchen,mittel
+Axios - HTTP Code,ServiceUnavailable (503),Temporärer Ausfall durch Überlastung oder Wartung,mittel,mittel,erneut veruschen (retry-after),mittel
+Axios - HTTP Code,GatewayTimeout (504),Zielserver timeout,mittel,mittel,erneut versuchen,mittel
+Axios - HTTP Code,VariantAlsoNegotiates (506),allgemeiner Serverfehler,mittel,mittel,erneut versuchen,mittel
+Axios - HTTP Code,InsufficientStorage (507),Ressource nicht verfügbar ,mittel,mittel,erneut versuchen,mittel
+Webpack,Container nicht gefunden,Fehlerhafte remoteEntry.js (Bug),gering,mittel / hoch,Webseite neu laden,gering
+Axios - HTTP Code,TooManyRequests (429),Rate limiting erreicht,,,,
+Axios - keine Antwort,ERR_DEPRECATED,---- (Nur bei veraltetr Option values),,,,
+Axios - keine Antwort,ERR_NOT_SUPPORT,---- (Keine Verwendung von eigenen Adaptern),,,,
+Axios - keine Antwort,ERR_INVALID_URL,---- (kein Einsatz von realtiven Pfaden),,,,
+Axios - keine Antwort,ERR_CANCELED,---- (keine eigenen Abbruch-Signale implementiert),,,,
+Axios - keine Antwort,ETIMEDOUT,---- (clarifyTimeoutError = false),,,,
+Axios - HTTP Code,Bad Request (400),---- (nur bei unültiger URL),,,,
+Axios - HTTP Code,Forbidden (403) ,---- (keine differentierte Rechtevergabe vorhanden),,,,
+Axios - HTTP Code,NotFound (404),---- (Falscher Dateiname / falscher Host),,,,
+Axios - HTTP Code,MethodNotAllowed (405),---- (Nur GET-Methode im Einsatz),,,,
+Axios - HTTP Code,NotAcceptable (406),---- (keine nicht akzeptierbaren Ressourcen vorhanden),,,,
+Axios - HTTP Code,ProxyAuthenticationRequired (407),---- (keine Proxy Authentifikation im Einsatz),,,,
+Axios - HTTP Code,RequestTimeout (408),---- (Serverseitiger Fehler),,,,
+Axios - HTTP Code,Gone (410),---- (Fehlerhafte implementierung),,,,
+Axios - HTTP Code,LengthRequired (411),---- (Fehlerhafte implementierung),,,,
+Axios - HTTP Code,PreconditionFailed (412),---- (Keine Vorarbbedingungen definiert),,,,
+Axios - HTTP Code,PayloadTooLarge (413),---- (kein Payload dabei),,,,
+Axios - HTTP Code,UriTooLong (414),---- (keine POST in GET Konvertierung),,,,
+Axios - HTTP Code,UnsupportedMediaType (415),---- (kein Einsatz von untypischen Content-Type Felder),,,,
+Axios - HTTP Code,RangeNotSatisfiable (416),---- (Fehlerhafte implementierung),,,,
+Axios - HTTP Code,ExpectationFailed (417),---- (Kein Einsatz von Expectation field),,,,
+Axios - HTTP Code,ImATeapot (418),---- Probably polymorphic server ,,,,
+Axios - HTTP Code,MisdirectedRequest (421),---- (Kein Service Serverseitig der angesprochen wird),,,,
+Axios - HTTP Code,UnprocessableEntity (422),---- (Kein zusätzlicher Inhalt der mitgeschickt wird),,,,
+Axios - HTTP Code,Locked (423),---- (Kein Deployment o.ä. welches einen Lock hervorrufen kann),,,,
+Axios - HTTP Code,FailedDependency (424),---- (keine voneinander abhängigen Aktion vorhanden),,,,
+Axios - HTTP Code,PreconditionRequired (428),---- (kein use case für Vorbedingungen),,,,
+Axios - HTTP Code,RequestHeaderFieldsTooLarge (431),---- (keine großen Requests),,,,
+Axios - HTTP Code,UnavailableForLegalReasons (451),---- (keine rechtlichen Einschränkungen),,,,
+Axios - HTTP Code,NotImplemented (501),"---- (Keine speziellen Anforderungen, die angefordert werden können)",,,,
+Axios - HTTP Code,HttpVersionNotSupported (505),---- (keine unterschiedlichen HTTP Versionen im Einsatz),,,,
+Axios - HTTP Code,LoopDetected (508),"---- (Keine eigene Serverlogik, keine Weiterleitungen)",,,,
+Axios - HTTP Code,NotExtended (510),---- (keine weitere Policy definiert),,,,
+Axios - HTTP Code,NetworkAuthenticationRequired (511),---- (Keine Proxies im Einsatz),,,,
+Javascript - DOM,HierarchyRequestError,---- (durch statische Implementierung ausgeschlossen),,,,
+Axios - HTTP Code,UpgradeRequired (426),---- (keine speziellen Protokolle in Verwendung),,,,
