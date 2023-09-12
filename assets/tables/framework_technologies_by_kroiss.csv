@@ -1,0 +1,27 @@
+Framework,Documentation,Free tooling choice,Technique,Type,Boilerplate generator,Multi-framework support,Base framework
+Mosaic9,partly,no,Server-side,service collection,yes,no,~
+PuzzleJS,no,yes,Server-side,Server-side composition,no,no,~
+Podium,good,?,Server-side,Server-side composition,no,no,~
+BigPipe,partly,no,Server-side,Server-side composition,no,?,~
+Bit,good,no,Server-side,component library,yes,yes,~
+Luigi,good,no,Server-side,applicationshell,no,no,~
+Web Components,good,yes,Client-side,HTML-standard,no,yes,Polymer
+Single-spa,good,yes,Client-side,applicationshell,yes,yes,~
+Quiankun,partly,?,Client-side,applicationshell,yes,yes,Single-SPA
+Piral,good,yes,Client-side,applicationshell,yes,no,React
+FrintJS,partly,no,Client-side,applicationshell,yes,yes,~
+Mooa,partly,?,Client-side,applicationshell,no,yes,Single-SPA
+NgxPlanet,partly,no,Client-side,applicationshell,no,no,~
+icestark,no,?,Client-side,applicationshell,no,yes,~
+Isomorphic Layout Composer,partly,?,client and server-side,Server-side composition,no,yes,Single-SPA / TailorX
+OpenComponents,partly,no,client and server-side,component library,yes,yes,~
+ARA,partly,?,client and server-side,applicationshell,yes,yes,Airbnb Hypernova
+Webpack5ModuleFederation,good,no,Bundle-loading,?,no,yes,~
+Systemjs,partly,no,Bundle-loading,?,no,yes,~
+nuz,partly,?,Bundle-loading,?,yes,?,~
+One-App,no,no,?,component library,no,no,~
+Nut,no,?,?,?,?,?,~
+Cellular JS,no,yes,?,?,?,?,~
+Misk,partly,?,?,?,yes,no,React
+Scalecube-js,no,?,?,?,?,?,~
+Berial,no,?,?,?,?,?,~
